@@ -3,10 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
+    <title>Fórmula Cuadrática</title>
     <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
   <body>
+    <form action="" method="post">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mb-3 col-3">
+            <label for="" class="form-label">Ingrese el valor de A</label>
+            <input type="number" id="valorA" class="form-control" />
+          </div>
+          <div class="mb-3 col-3">
+            <label for="A" class="form-label">Ingrese el valor de B</label>
+            <input type="number" id="valorB" class="form-control" />
+          </div>
+          <div class="mb-3 col-3">
+            <label for="" class="form-label">Ingrese el valor de C</label>
+            <input type="number" id="valorC" class="form-control" />
+          </div>
+
+          <div class="row">
+            <div class="mb-3 col-6">
+              <label class="form-label">X1</label>
+              <input type="number" class="form-control" id="valorX1" readonly />
+            </div>
+            <div class="mb-3 col-6">
+              <label class="form-label">X2</label>
+              <input type="number" class="form-control" id="valorX2" readonly />
+            </div>
+          </div>
+          <div class="row">
+            <div class="mb-3 col-3">
+              <button class="btn btn-success">Calcular</button>
+            </div>
+            <div class="mb-3 col-3">
+              <button class="btn btn-danger">Limpiar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
     <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
